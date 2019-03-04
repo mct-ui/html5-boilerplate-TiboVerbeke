@@ -72,7 +72,8 @@ ul,
 dl,
 table,
 address,
-figure {
+figure,
+blockquote {
     margin: 0 0 24px;
 }
 
@@ -82,11 +83,10 @@ ol {
 }
 
 blockquote {
+    font-family: "Times New Roman", serif;
     font-style: italic;
     font-size: 23px;
     line-height: 32px;
-    margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
 }
 
 li ul,
@@ -113,10 +113,17 @@ hr {
     margin: 0 0 24px;
 }
 
-a {}
+a {
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
+}
 
-a:hover,
-a:focus {}
+a:focus,
+a:hover {
+    color: Crimson;
+}
 
 a:visited,
-a:active {}
+a:active {
+    color: BlueViolet
+}
